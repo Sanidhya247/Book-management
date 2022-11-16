@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Kanit", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(210, 230, 210, 0.5294117647);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  height: 50px;
+}
+
+.nav {
+  background-color: #8db4aa;
+  color: white;
+  justify-content: space-between;
+  padding: 12px;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+}
+
+.nav-left div {
+  margin: 0px 17px;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.nav-center h5 {
+  padding: 4px;
+  margin: 0;
+}
+
+.nav-right input {
+  margin: 0px 5px;
+  border-radius: 5px;
+}
+
+.nav-right button {
+  margin: 0px 5px;
+  background-color: #515156;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.burger {
+  display: none;
+}
+
+.burger-line {
+  background-color: aliceblue;
+  margin: 5px;
+  border: 2px solid white;
+  width: 30px;
+}
+
+.line {
+  width: auto;
+  height: 5px;
+  background-color: black;
+}
+
+@media (max-width: 992px) {
+  .nav {
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav-left {
+    flex-direction: column;
+  }
+  .nav-center {
+    display: none;
+  }
+  .burger {
+    display: block;
+    position: absolute;
+    right: 10px;
+  }
+  .nav-center {
+    left: 5px;
+    position: absolute;
+  }
+  .nav-height {
+    height: 50px;
+  }
+  .v-nav {
+    opacity: 0;
+  }
+}
+@media (max-width: 824px) {
+  .nav-left {
+    margin-top: 28px;
+  }
+}
+@media (max-width: 295px) {
+  .nav-center {
+    top: 44px;
+  }
+  .nav-left {
+    margin-top: 63px;
+  }
+}
+@media (max-width: 264px) {
+  .nav-height {
+    height: 75px;
+  }
+}
+@media (max-width: 253px) {
+  .nav-left {
+    margin-top: 86px;
+  }
+}
+@media (max-width: 240px) {
+  .nav-height {
+    height: 100px;
+  }
+}
+@media (max-width: 186px) {
+  .nav-height {
+    height: 120px;
+  }
+}
+@media (max-width: 186px) {
+  .nav-left {
+    margin-top: 110px;
+  }
+  .nav-right input {
+    width: 122px;
+  }
+}
+.footer {
+  display: flex;
+  background-color: #8db4aa;
+  justify-content: space-around;
+  padding: 30px;
+  align-items: center;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+}
+.content input {
+  border-radius: 5px;
+  height: 35px;
+  padding: 8px 14px;
+  border-color: white;
+}
+.content .btn {
+  margin: 19px;
+  width: 200px;
+}
+
+.nav-center h5 {
+  font-weight: bold;
+}
+
+.row .card {
+  margin: 8px;
+  padding: 8px;
+  background-color: rgba(184, 211, 179, 0.29);
+}
+.row .card-body {
+  padding: 0px 12px;
+}
+.row .card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 360px) {
+  .content .btn {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+i {
+  cursor: pointer;
+}
+
+.Your-books {
+  margin-bottom: 8%;
+}
+
+.fixed-margin {
+  margin-bottom: 28.7%;
+}
+
+.about {
+  margin-bottom: 28.7%;
+}/*# sourceMappingURL=main.css.map */
